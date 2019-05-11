@@ -7,7 +7,9 @@ I implemented this program using Java.
 Aiming to simplify the code, I created a class- called Simple_Event - that as two attributes:
 
 "timestamp" which is a LocalDateTime object,
+
 "duration" which is a double data type.
+
 
 The Simple_Event objects are used to construct the input ArrayList, by parsing the JSON file and to construct the output ArrayList.
 In both cases, the objects in the ArrayList can be viewed as a pair (LocalDateTime,double).
