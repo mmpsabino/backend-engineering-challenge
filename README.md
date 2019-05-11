@@ -11,10 +11,10 @@ Aiming to simplify the code, I created a class- called Simple_Event - that as tw
 "duration" which is a double data type.
 
 
-The Simple_Event objects are used to construct the input ArrayList, by parsing the JSON file and to construct the output ArrayList.
-In both cases, the objects in the ArrayList can be viewed as a pair (LocalDateTime,double).
+The Simple_Event objects are used to construct the input ArrayList, by parsing the JSON file, and to construct the output ArrayList.
+In both cases, the objects in the ArrayLists can be viewed as a pair (LocalDateTime,double).
 
-Note: to parse the JSON file I used org.json.jar file (also uploadled to git), so we shall include it in the classpath while building and running the program.
+Note: to parse the JSON file I used org.json.jar (also uploadled to git), so we shall include it in the classpath while building and running the program.
 
 In order to build the code, you just need to open command line, change the directory to the one where the .java file is, and execute:
 
