@@ -5,6 +5,7 @@
 I implemented this program using Java.
 
 Aiming to simplify the code, I created a class- called Simple_Event - that as two attributes:
+
 "timestamp" which is a LocalDateTime object,
 "duration" which is a double data type.
 
